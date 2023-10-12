@@ -10,6 +10,7 @@ import java.util.Map;
 
 @RestController()
 @RequestMapping("/api")
+@CrossOrigin(origins = "http://127.0.0.1:5173/")
 public class UserController {
     @Autowired private UserService service;
 

@@ -16,7 +16,7 @@ public class User {
     private  String email;
 
     @Column(nullable = false,length = 40)
-    private String qualificaion;
+    private String qualification;
 
     @Column(nullable = false,length = 10)
     private String gender;
@@ -50,12 +50,12 @@ public class User {
         this.email = email;
     }
 
-    public String getQualificaion() {
-        return qualificaion;
+    public String getQualification() {
+        return qualification;
     }
 
-    public void setQualificaion(String qualificaion) {
-        this.qualificaion = qualificaion;
+    public void setQualification(String qualification) {
+        this.qualification = qualification;
     }
 
     public String getGender() {
@@ -88,7 +88,7 @@ public class User {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
-                ", qualificaion='" + qualificaion + '\'' +
+                ", qualification='" + qualification + '\'' +
                 ", gender='" + gender + '\'' +
                 ", password='" + password + '\'' +
                 ", aboutme='" + aboutme + '\'' +
